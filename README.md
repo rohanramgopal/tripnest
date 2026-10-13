@@ -1,19 +1,116 @@
-# React + Vite
+# TripNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+  <img src="src/assets/hero.png" alt="TripNest Hero" width="980" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  <p>
+    <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" />
+    <img alt="Vite" src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite" />
+    <img alt="Redux Toolkit" src="https://img.shields.io/badge/Redux_Toolkit-2-764ABC?style=for-the-badge&logo=redux" />
+    <img alt="React Router" src="https://img.shields.io/badge/React_Router-7-CA4245?style=for-the-badge&logo=reactrouter" />
+    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript" />
+  </p>
 
-## React Compiler
+  <p>
+    <strong>Plan, explore, and save your dream getaway in one beautiful travel app.</strong>
+  </p>
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+</div>
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+TripNest is a modern travel planner built with React and Vite. It lets users browse destinations, explore curated categories like beaches, mountains, and cities, and save trip plans in a Redux-powered itinerary.
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse destination collections by category
+- Explore beaches, mountains, and city escapes
+- View destination details and trip information
+- Save personal travel plans in Redux state
+- Edit or remove saved trips from the itinerary dashboard
+- Responsive design for mobile and desktop
+- Light/dark theme switching
+- Clean routing with React Router
+
+## 🧰 Tech Stack
+
+- React 19
+- Vite 8
+- React Router DOM
+- Redux Toolkit
+- Axios
+- CSS modules and custom styling
+- ESLint + React hooks linting
+
+## 🖼️ Screenshots
+
+<div align="center">
+
+  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80" alt="Beach destination" width="600" />
+  <br /><br />
+  <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" alt="Mountain destination" width="600" />
+
+</div>
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the app locally
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+## 📁 Project Structure
+
+```bash
+src/
+├── components/
+├── context/
+├── data/
+├── hooks/
+├── pages/
+├── redux/
+├── App.jsx
+├── main.jsx
+├── index.css
+└── App.css
+```
+
+## 🧠 App Highlights
+
+This project demonstrates a travel booking-style interface with:
+
+- destination-driven browsing
+- route-based pages for different experiences
+- local Redux state for itinerary management
+- polished UI for a travel brand feel
+
+## 📜 License
+
+This project is open for learning and personal use.
+
+---
+
+Built for travelers who want a smoother plan-before-the-journey experience.
